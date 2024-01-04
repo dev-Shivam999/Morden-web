@@ -166,7 +166,7 @@ x:800,
         start: "top 10%",
         end: "top -15%",
         // scrub: 8,
-                markers: true,
+                // markers: true,
     }
 })
 gsap.to('.png',{
@@ -175,7 +175,7 @@ gsap.to('.png',{
     scrollTrigger: {
         trigger: '.left',
         scroller: 'body',
-        markers: true,
+        // markers: true,
         start: "top 50%",
         end: "top -10%",
         scrub: 8
